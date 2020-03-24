@@ -3,4 +3,10 @@ title = "Contributors and Members"
 weight = "5"
 +++
 
-members
+Notes:
+
+- Major contributors
+	- how to get involved
+- Notable members
+
+include logos?
