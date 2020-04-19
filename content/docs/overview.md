@@ -17,7 +17,7 @@ For this reason, the Cloud Foundry community has unified on the goal of bringing
 
 ## The Cloud Foundry way
 
-The Cloud Foundry Way focuses on cross-team efficiency through well established cloud-native opinions and high levels of automation. To understand what this really means, it is useful to ask the question: _"why does your custom development organization exist?"_
+The Cloud Foundry way focuses on cross-team efficiency through well established cloud-native opinions and high levels of automation. To understand what this really means, it is useful to ask the question: _"why does your custom development organization exist?"_
 
 If you have a custom development shop, it is likely to build apps that drive your business. However, you need to do so within the confines of tight budgets. Therefore, you need to move quickly and in a lean fashion, while maintaining good security posture and presence.  So what do you need to achieve this?
 
@@ -27,4 +27,4 @@ If you have a custom development shop, it is likely to build apps that drive you
 
 * **Make security and compliance an accelerator.** In many IT shops, security and compliance are seen as impediments to getting to production. Because Cloud Foundry focuses on self-service and standardization, security and compliance are core to the platform. Self-service capabilities available to developers have been tested and approved by operators and security teams. No overbearing approval processes or ticketing systems are needed. 
 
-You may have heard the mantra "make doing the right thing, the easy thing." **Cloud Foundry makes doing the fast, outcome-focused, secure, compliant, proven, right thing the easy thing**.  This enables entire organizations to be more productive, more fun to work at, and have a bigger impact on your bottom line.
+You may have heard the mantra "make doing the right thing, the easy thing." **Cloud Foundry makes doing the fast, outcome-focused, secure, compliant, proven, right thing the easy thing**.  This enables entire organizations to be more productive, more fun to work at, and have a bigger impact on your bottom line. This is the Cloud Foundry way.
