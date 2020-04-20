@@ -1,6 +1,6 @@
 +++
 title = "Case Studies"
-weight = "6"
+weight = "7"
 +++
 
 Perhaps pick 3 case studies?
