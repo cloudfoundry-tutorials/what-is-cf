@@ -15,7 +15,7 @@ In Kubernetes, the containerized workload is the unit of currency. In this envir
 
 For this reason, the Cloud Foundry community has unified on the goal of bringing the _Cloud Foundry way_ to Kubernetes. We are focused on **bringing the best cloud-native developer experience to any Kubernetes cluster**.
 
-## The Cloud Foundry way
+## The Cloud Foundry Way
 
 The Cloud Foundry way focuses on cross-team efficiency through well established cloud-native opinions and high levels of automation. To understand what this really means, it is useful to ask the question: _"why does your custom development organization exist?"_
 
