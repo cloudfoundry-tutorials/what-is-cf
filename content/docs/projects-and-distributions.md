@@ -19,8 +19,8 @@ Cloud Foundry is a large project with many different components and projects. Fr
 There are three major open source distributions under development:
 
 1. [Cloud Foundry](https://github.com/cloudfoundry/cf-deployment) deployed by [BOSH](https://bosh.io): This is the oldest and most widely used distribution whereby Cloud Foundry components are deployed on Virtual Machines on any infrastructure as a service.  
-1. [KubeCF](https://github.com/cloudfoundry-incubator/kubecf): An incubating distribution whereby Cloud Foundry components are deployed as pods to a Kubernetes cluster. This distribution uses the [cf-operator](https://github.com/cloudfoundry-incubator/cf-operator) to containerize the same BOSH releases above for deployment on Kubernetes.
-1. [CF for K8s](https://github.com/cloudfoundry/cf-for-k8s): An experimental project leveraging native Kubernetes components to implement the Cloud Foundry functionality.
+1. [KubeCF](https://github.com/cloudfoundry-incubator/kubecf): Currently the most widely-adopted Cloud Foundry distribution available for Kubernetes that you can install yourself. This distribution uses the [cf-operator](https://github.com/cloudfoundry-incubator/cf-operator) to containerize the same BOSH releases above for deployment on Kubernetes.
+1. [CF for K8s](https://github.com/cloudfoundry/cf-for-k8s): An on-going project that is repackaging Cloud Foundry for Kubernetes, and also switching some internal components for more Kubernetes-native equivalents. At the time of writing it is not ready for production use, but is making great progress.
 
 ## Commercial Cloud Foundry Distributions
 
