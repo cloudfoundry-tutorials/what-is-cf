@@ -14,7 +14,7 @@ Cloud Foundry is a large, open-source project. All of the source code available 
 
 Cloud Foundry is a large project with many different components and projects. From these projects, there are many interoperable distributions available for end-users. While these distributions may differ in approach and alterations, they all support the same common-core, ensuring interoperability across all Cloud Foundry distributions.
 
-## Open Source Cloud Foundry Distributions
+## Open Source Distributions
 
 There are three major open source distributions under development:
 
@@ -22,6 +22,6 @@ There are three major open source distributions under development:
 1. [KubeCF](https://github.com/cloudfoundry-incubator/kubecf): Currently the most widely-adopted Cloud Foundry distribution available for Kubernetes that you can install yourself. This distribution uses the [cf-operator](https://github.com/cloudfoundry-incubator/cf-operator) to containerize the same BOSH releases above for deployment on Kubernetes.
 1. [CF for K8s](https://github.com/cloudfoundry/cf-for-k8s): An on-going project that is repackaging Cloud Foundry for Kubernetes, and also switching some internal components for more Kubernetes-native equivalents. At the time of writing it is not ready for production use, but is making great progress.
 
-## Commercial Cloud Foundry Distributions
+## Where is Cloud Foundry?
 
-There are many commercial distributions of Cloud Foundry available for purchase. The Cloud Foundry Foundation maintains a certification program for commercial distributions to ensure consistency of functionality, APIs, and experiences across commercial distributions. A list of [certified distributions](https://www.cloudfoundry.org/certified-platforms/) is available [here](https://www.cloudfoundry.org/certified-platforms/).
+The open source distributions of Cloud Foundry can be run standalone or packaged inside commercial offerings. Your company, or even your government, may be running Cloud Foundry and you don't even know it. Some offerings denote it in the name, like IBM Cloud Foundry or Atos Cloud Foundry. But Cloud Foundry is also at the core of VMWare's Tanzu Application Service, SUSE Cloud Application Platform, SAP Cloud Platform, and Cloud.gov. This list is by no means exhaustive. There are additional as-a-service offerings widely available and installations of Cloud Foundry in many enterprises and governments worldwide. 
