@@ -5,11 +5,11 @@ weight = "3"
 
 Cloud Foundry is a large, open-source project. All of the source code available on GitHub. There are a few different organizations:
 
-- https://github.com/cloudfoundry: Core Cloud Foundry projects and components include all source code and documentation.
-- https://github.com/cloudfoundry-incubator: Projects under development that are not yet part of the core Cloud Foundry project. The incubator serves as a proving ground. Projects typically graduate to the core Cloud Foundry project or are shuttered.
-- https://github.com/paketo-buildpacks: A collection of Cloud Native [Buildpacks](https://buildpacks.io) designed for Cloud Foundry and/or Kubernetes.
-- https://github.com/cloudfoundry-community: Community-contributed and maintained projects outside of, but related to, the core Cloud Foundry project.
-- https://github.com/cloudfoundry-tutorials: The organization that houses this and other tutorials.
+- [https://github.com/cloudfoundry](https://github.com/cloudfoundry): Core Cloud Foundry projects and components include all source code and documentation.
+- [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator): Projects under development that are not yet part of the core Cloud Foundry project. The incubator serves as a proving ground. Projects typically graduate to the core Cloud Foundry project or are shuttered.
+- [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks): A collection of Cloud Native [Buildpacks](https://buildpacks.io) designed for Cloud Foundry and/or Kubernetes.
+- [https://github.com/cloudfoundry-community](https://github.com/cloudfoundry-community): Community-contributed and maintained projects outside of, but related to, the core Cloud Foundry project.
+- [https://github.com/cloudfoundry-tutorials](https://github.com/cloudfoundry-tutorials): The organization that houses this and other tutorials.
 
 Cloud Foundry is a large project with many different components and projects. From these projects, there are many interoperable distributions available for end-users. While these distributions may differ in approach and alterations, they all support the same common-core, ensuring interoperability across all Cloud Foundry distributions.
 
