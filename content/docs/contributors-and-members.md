@@ -4,7 +4,7 @@ weight = "4"
 +++
 
 
-Cloud Foundry is a rapidly evolving and growing ecosystem. [Garnter Research](https://thenewstack.io/chip-childers-takes-executive-director-role-at-cloud-foundry/) has estimated that Cloud Foundry’s total market value is approximately $3.1 billion, and will rise to $5.25 billion in a few years as more organizations move to open source-based cloud computing. It is no surprise that some of the largest companies and best minds in the world are actively driving the technology forward.
+Cloud Foundry is a rapidly evolving and growing ecosystem. [Garnter Research](https://www.cloudfoundry.org/blog/cloud-foundry-foundation-kicks-off-2019-with-new-members/) has estimated that Cloud Foundry’s total market value is approximately $3.1 billion, and will rise to $5.25 billion in a few years as more organizations move to open source-based cloud computing. It is no surprise that some of the largest companies and best minds in the world are actively driving the technology forward.
 
 ## The Cloud Foundry Foundation
 
