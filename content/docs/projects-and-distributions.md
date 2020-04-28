@@ -7,7 +7,7 @@ Cloud Foundry is a large, open-source project. All of the source code available 
 
 - https://github.com/cloudfoundry: Core Cloud Foundry projects and components include all source code and documentation.
 - https://github.com/cloudfoundry-incubator: Projects under development that are not yet part of the core Cloud Foundry project. The incubator serves as a proving ground. Projects typically graduate to the core Cloud Foundry project or are shuttered.
-- https://github.com/paketo-buildpacks: A collection of Cloud Native Buildpacks (https://buildpacks.io) designed for Cloud Foundry and/or Kubernetes.
+- https://github.com/paketo-buildpacks: A collection of Cloud Native [Buildpacks](https://buildpacks.io) designed for Cloud Foundry and/or Kubernetes.
 - https://github.com/cloudfoundry-community: Community-contributed and maintained projects outside of, but related to, the core Cloud Foundry project.
 - https://github.com/cloudfoundry-tutorials: The organization that houses this and other tutorials.
 
