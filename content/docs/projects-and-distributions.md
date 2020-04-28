@@ -10,7 +10,6 @@ Cloud Foundry is a large, open-source project. All of the source code available 
 - https://github.com/paketo-buildpacks: A collection of Cloud Native Buildpacks (https://buildpacks.io) designed for Cloud Foundry and/or Kubernetes.
 - https://github.com/cloudfoundry-community: Community-contributed and maintained projects outside of, but related to, the core Cloud Foundry project.
 - https://github.com/cloudfoundry-tutorials: The organization that houses this and other tutorials.
-- https://github.com/cloudfoundry-attic: Old projects no longer actively developed.
 
 Cloud Foundry is a large project with many different components and projects. From these projects, there are many interoperable distributions available for end-users. While these distributions may differ in approach and alterations, they all support the same common-core, ensuring interoperability across all Cloud Foundry distributions.
 
