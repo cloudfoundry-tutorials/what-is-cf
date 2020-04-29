@@ -23,4 +23,6 @@ There are three major open source distributions under development:
 
 ## Where is Cloud Foundry?
 
-The open source distributions of Cloud Foundry can be run standalone or packaged inside commercial offerings. Your company, or even your government, may be running Cloud Foundry and you don't even know it. Some offerings denote it in the name, like IBM Cloud Foundry or Atos Cloud Foundry. But Cloud Foundry is also at the core of VMWare's Tanzu Application Service, SUSE Cloud Application Platform, SAP Cloud Platform, and Cloud.gov. This list is by no means exhaustive. There are additional as-a-service offerings widely available and installations of Cloud Foundry in many enterprises and governments worldwide. 
+The open source distributions of Cloud Foundry can be run standalone or packaged inside commercial offerings. Your company, or even your government, may be running Cloud Foundry and you don't even know it. Cloud Foundry is running production workloads in over half of the Fortune 500 companies.
+
+Some offerings denote it in the name, like IBM Cloud Foundry or Atos Cloud Foundry. But Cloud Foundry is also at the core of VMWare's Tanzu Application Service, SUSE Cloud Application Platform, SAP Cloud Platform, and Cloud.gov. This list is by no means exhaustive. There are additional as-a-service offerings widely available and installations of Cloud Foundry in many enterprises and governments worldwide. 
