@@ -12,7 +12,7 @@ We are focused on exchanging practical experience — inclusive of people across
 There are many ways to get engaged with the Cloud Foundry community. We recommend:
 
 - [Take Cloud Foundry for a test drive](https://killercoda.com/cloudfoundry/scenario/trycf)
-- Learn about [Korifi](https://tutorials.cloudfoundry.org/korifi/), the implemenation of Cloud Foundry on Kubernetes
+- Learn about [Korifi](https://tutorials.cloudfoundry.org/korifi/), the reimplemenation of Cloud Foundry on Kubernetes
 - Read some [user stories](https://www.cloudfoundry.org/user-stories/)
 - Attend an [event](https://www.cloudfoundry.org/events/) or watch videos from previous events on [Youtube](https://www.youtube.com/channel/UC0ZYS0Y7b5oiVLvxGf4magw)
 - Join the [Cloud Foundry Slack](https://slack.cloudfoundry.org/)
