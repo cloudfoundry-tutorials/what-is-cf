@@ -22,4 +22,4 @@ There are two major open-source distributions under development:
 
 The open-source distributions of Cloud Foundry can be run standalone or packaged inside commercial offerings. So your company, or even your government, might be running Cloud Foundry, and you don't know it. 
 
-Cloud Foundry is at the core of VMWare's Tanzu Application Service, SAP Cloud Platform, and Cloud.gov. However, this list is by no means exhaustive. Additional as-a-service offerings are available, and Cloud Foundry installations exist in many enterprises and governments worldwide. 
+Cloud Foundry is at the core of VMWare's Tanzu Application Service, SAP Business Technology Platform, and Cloud.gov. However, this list is by no means exhaustive. Additional as-a-service offerings are available, and Cloud Foundry installations exist in many enterprises and governments worldwide. 
