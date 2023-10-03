@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>What is Cloud Foundry? - What is Cloud Foundry?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href='/what-is-cf/images/favicon.png'>
+
+  
+  
+  <link rel="stylesheet" href="/what-is-cf/css/style.min.07c17d350d500724f9b432433f77b8fb5bec9e8c2787043d6ad1700b32efd97e.css">
+  
+
+  
+
+  <link rel="stylesheet" href='/what-is-cf/css/custom-style.css'>
+  <link href='/what-is-cf/fontawesome/css/all.min.css' rel="stylesheet">
+
+</head>
+
+<body class=' page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-overview">
+      <a href="/what-is-cf/docs/">
+        <span>Overview</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-source">
+      <a href="https://github.com/cloudfoundry-tutorials/what-is-cf">
+        <span>Source</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tutorials">
+      <a href="https://tutorials.cloudfoundry.org">
+        <span>Tutorials</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/what-is-cf"><img width="70" height="70" alt="Logo" src="/what-is-cf/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/what-is-cf"><img  width="70" height="70" alt="Logo" src="/what-is-cf/images/logo-mobile.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-overview">
+      <a href="/what-is-cf/docs/">
+        <span>Overview</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-source">
+      <a href="https://github.com/cloudfoundry-tutorials/what-is-cf">
+        <span>Source</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tutorials">
+      <a href="https://tutorials.cloudfoundry.org">
+        <span>Tutorials</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="active ">
+      <a href="/what-is-cf/docs/what-is-cf/">What is Cloud Foundry?</a>
+    </li>
+    
+    <li class="">
+      <a href="/what-is-cf/docs/capabilities/">Capabilities</a>
+    </li>
+    
+    <li class="">
+      <a href="/what-is-cf/docs/projects-and-distributions/">Projects and Distributions</a>
+    </li>
+    
+    <li class="">
+      <a href="/what-is-cf/docs/contributors-and-members/">Contributors and Members</a>
+    </li>
+    
+    <li class="">
+      <a href="/what-is-cf/docs/engaging/">Engaging</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">What is Cloud Foundry?</h1>
+<div class="content ">
+  <p>Cloud Foundry is an opinionated application platform that brings efficiency, security, and speed to software development organizations. Cloud Foundry makes it faster and easier to build, test, deploy, and scale applications, providing a choice of the underlying infrastructure (including Kubernetes), developer frameworks, and application services. In addition, operational aspects of the platform are standardized and automated, freeing operators to focus on higher-value tasks while still providing developers with a secure self-service experience.</p>
+<p>Cloud Foundry is an open-source project guided by its contributors, governed by a directed fund of the Linux Foundation, funded by its members, and driven by a community.</p>
+<h2 id="focus">Focus</h2>
+<p>Cloud Foundry focuses on bringing users a world-class, cloud-native developer experience. In Cloud Foundry, the application is the unit of currency. The platform frees developers to focus on application code only, handing off the complexity of building, managing, and running containerized workloads to Cloud Foundry. This approach allows developers to focus on solving your business problems. It will enable them to be faster and more efficient in a secure and compliant environment.</p>
+<p>In Kubernetes, the containerized workload is the unit of currency. In this environment, application developers are responsible for their applications <em>and</em> container images <em>and</em> other deployment configurations (like networking). While this approach has the potential to run a wider variety of workloads, it is far more burdensome for the typical custom application.</p>
+<p>For this reason, the Cloud Foundry community has unified to bring the <em>Cloud Foundry way</em> to Kubernetes. We focus on <strong>bringing the best cloud-native developer experience to any Kubernetes cluster</strong>.</p>
+<h2 id="the-cloud-foundry-way">The Cloud Foundry Way</h2>
+<p>The Cloud Foundry way focuses on cross-team efficiency through well-established cloud-native opinions and high levels of automation. To understand this, it is useful to ask the question: <em>&ldquo;why does your custom development organization exist?&rdquo;</em></p>
+<p>If you have a custom development organization, it is likely to build apps that drive your business. However, you often need to do so within the confines of tight budgets. Therefore, you need to move quickly and in a lean fashion while maintaining a good security posture and presence. So what do you need to achieve this?</p>
+<ul>
+<li>
+<p><strong>Allow developers to focus on business outcomes.</strong> The functionality of your applications runs your business. The more developers can focus on this, the more they can contribute to your business by building and refining features. With Cloud Foundry, developers are freed from the burden of defining and maintaining containers, provisioning and managing services, and complex configurations for things like ingress networking.</p>
+</li>
+<li>
+<p><strong>Standardize and centralize common components&rsquo; testing, configuration, and management.</strong> Cloud Foundry allows operators to test, configure, and secure platform capabilities in a single location for all users. This work is done before being released to developers, freeing operators to manage the platform proactively. Answering questions like &ldquo;what versions of Ruby or MySQL are currently in production&rdquo; are easy to answer with Cloud Foundry.</p>
+</li>
+<li>
+<p><strong>Make security and compliance an accelerator.</strong> In many IT shops, security and compliance are seen as impediments to getting to production. Because Cloud Foundry focuses on self-service and standardization, security and compliance are core to the platform. Operators and security teams have tested and approved self-service capabilities available to developers. No overbearing approval processes or ticketing systems are needed.</p>
+</li>
+</ul>
+<p>You may have heard the mantra, &ldquo;make doing the right thing easy.&rdquo; <strong>Cloud Foundry makes doing the fast, outcome-focused, secure, compliant, proven, right thing easy</strong>. This enables entire organizations to be more productive and fun to work at, significantly impacting your bottom line. This is the Cloud Foundry way.</p>
+
+</div>
+<div class="next-previous">
+  <div class="row">
+    
+    <div class="col">
+      
+    </div>
+    <div class="col">
+      
+      <a href="/what-is-cf/docs/capabilities/" class="next">Next: "Capabilities" <i class="fas fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/what-is-cf/js/scripts.min.302a6fc365d5139fb98cf60bdb8f715d96257ea189161d36c190ccfa8182e569.js"></script>
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160449920-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-160449920-1');
+      </script>
+    
+  
+
+
+</body>
+
+</html>

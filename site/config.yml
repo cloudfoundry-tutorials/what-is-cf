@@ -1,0 +1,70 @@
+---
+baseURL: "/what-is-cf"
+languageCode: "en-us"
+title: "What is Cloud Foundry?"
+theme: "hugo-whisper-theme"
+themesDir: "themes"
+
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength: 30
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.55.0"
+
+menu:
+  main:
+    - name: "Overview"
+      url: "/docs/"
+      weight: 1
+    - name: "Source"
+      url: "https://github.com/cloudfoundry-tutorials/what-is-cf"
+      weight: 2
+    - name: "Tutorials"
+      url: "https://tutorials.cloudfoundry.org"
+      weight: 3
+
+params:
+  google_analytics_id: "UA-160449920-1"
+  homepage_button_link: "/what-is-cf/docs/"
+  homepage_button_text: "Start the tutorial"
+  #homepage_intro: "((homepage_intro))"
+  # homepage_image = '/images/terminal.gif'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+  homepage_meta_tags:
+    meta_description: "This tutorial covers the basics of the Cloud Foundry platform including: what it is, its role in technology organizations, ideal workloads, oss and the foundation, and contributors and users."
+    meta_og_title: "What is Cloud Foundry?"
+    meta_og_type: "website"
+    meta_og_description: "This tutorial covers the basics of the Cloud Foundry platform including: what it is, its role in technology organizations, ideal workloads, oss and the foundation, and contributors and users."
+    meta_twitter_site: "@cloudfoundry"
+    meta_twitter_creator: "@cloudfoundry"
+  logo:
+    mobile: "/what-is-cf/images/logo-mobile.png"
+    standard: "/what-is-cf/images/logo.png"
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false

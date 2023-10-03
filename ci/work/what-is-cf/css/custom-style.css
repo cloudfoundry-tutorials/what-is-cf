@@ -1,0 +1,18 @@
+.intro>ul {
+  list-style-type: none;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.next-previous {
+  margin-top: 30px;
+}
+
+.next-previous a.previous {
+  text-align: left;
+}
+
+.next-previous a.next {
+  text-align: right;
+}

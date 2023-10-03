@@ -1,0 +1,27 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<h1 class="title">{{.Title}}</h1>
+<div class="content {{if .Site.Params.enable_anchor_link}}{{ " anchor-link-enabled" }}{{ end }}">
+  {{.Content}}
+</div>
+<div class="next-previous">
+  <div class="row">
+    <!-- Yes, they are backwards -->
+    <div class="col">
+      {{ with .Next }}
+      <a href="{{ .Permalink | absURL }}" class="previous"><i class="fas fa-chevron-left"></i> Previous: "{{
+        .Title }}"</a>
+      {{ end }}
+    </div>
+    <div class="col">
+      {{ with .Prev }}
+      <a href="{{ .Permalink | absURL }}" class="next">Next: "{{ .Title }}" <i class="fas fa-chevron-right"></i></a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
